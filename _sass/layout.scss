@@ -334,7 +334,17 @@ blockquote:before {
   padding: 10px;
   background: #ffcccb;
   border-radius: 6px;
-  color: rgb(0, 0, 0);
+  color: #000000;
+  overflow-wrap: break-word !important;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.session-even {
+  padding: 10px;
+  background: #d0a7a6;
+  border-radius: 6px;
+  color: #000000;
   overflow-wrap: break-word !important;
   margin: 10px;
   margin-bottom: 10px;
