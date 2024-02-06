@@ -338,6 +338,7 @@ blockquote:before {
   overflow-wrap: break-word !important;
   margin: 10px;
   margin-bottom: 10px;
+  border-color: #000000;
 }
 
 .session-even {
@@ -348,6 +349,7 @@ blockquote:before {
   overflow-wrap: break-word !important;
   margin: 10px;
   margin-bottom: 10px;
+  border-color: #000000;
 }
 
 .timeline-component {
@@ -358,8 +360,14 @@ blockquote:before {
 	  }
 
 .timeline-content h2{
-		font-size: 10px;
+		font-size: 30px;
 	  }
+
+.timeline-content h3{
+		font-size: 20px;
+		font-style: italic;
+	  }
+
 .timeline-component h4{
 	font-size: 1.5rem;
   }
