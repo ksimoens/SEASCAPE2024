@@ -339,6 +339,7 @@ blockquote:before {
   margin: 10px;
   margin-bottom: 10px;
   border-color: #000000;
+  border-style: solid;
 }
 
 .session-even {
@@ -350,6 +351,7 @@ blockquote:before {
   margin: 10px;
   margin-bottom: 10px;
   border-color: #000000;
+  border-style: solid;
 }
 
 .timeline-component {
@@ -360,12 +362,14 @@ blockquote:before {
 	  }
 
 .timeline-content h2{
-		font-size: 30px;
+		font-size: 40px;
+		margin: 10px 0;
 	  }
 
 .timeline-content h3{
-		font-size: 20px;
+		font-size: 30px;
 		font-style: italic;
+		margin: 20px 0 25px 0;
 	  }
 
 .timeline-component h4{
