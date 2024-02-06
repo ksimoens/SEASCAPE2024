@@ -416,6 +416,9 @@ table, th, td{
 td{
 	padding-left: 7.6%;
 	width: 23%;
+	overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
 }
 
 table{
@@ -423,6 +426,15 @@ table{
 	font-size: 30px;
 	border-radius: 6px;
 	margin: 0 50px;
+	table-layout: fixed;
+}
+
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .table {
+        overflow-x: auto;
+        display: block;
+    }
 }
 
 td:hover{
