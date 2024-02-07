@@ -382,6 +382,7 @@ blockquote:before {
 
 .timeline-component h4{
 	font-size: 1.5rem;
+    scroll-margin-top: 100px;
   }
 .timeline-left{
   background: #E5E5D8;
@@ -392,7 +393,6 @@ blockquote:before {
 }
 .timeslot-contributed{
   padding-left:20px;
-  scroll-margin-top: 100px;
 }
 .timeslot-coffee{
   padding-left:20px;
