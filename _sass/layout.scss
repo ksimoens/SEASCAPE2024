@@ -511,7 +511,6 @@ tr th:first-child{
       [time-1730] 1fr
 	  [time-1800] 1fr;
 
-	@supports not( display: grid ) {
  	@media screen and (max-width: 700px) {
 	  display: block;
 	}
