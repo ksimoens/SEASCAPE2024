@@ -507,7 +507,8 @@ tr th:first-child{
       [time-1600] 1fr
       [time-1630] 1fr
       [time-1700] 1fr
-      [time-1730] 1fr;
+      [time-1730] 1fr
+	  [time-1800] 1fr;
       /* Note 1:
       Use 24hr time for gridline names for simplicity
 
@@ -519,7 +520,8 @@ tr th:first-child{
       [times] 4em
       [track-1-start] 1fr
       [track-1-end track-2-start] 1fr
-      [track-2-end track-3-start] 1fr;
+      [track-2-end track-3-start] 1fr
+	  [track-3-end];
   }
 }
 
@@ -565,7 +567,7 @@ tr th:first-child{
 .session {
   padding: .5em;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 24px;
   box-shadow:
     rgba(255,255,255,.6) 1px 1px 0,
     rgba(0,0,0,.3) 4px 4px 0;
@@ -581,7 +583,7 @@ tr th:first-child{
 .session-title,
 .time-slot {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.66em;
 }
 
 .session-title a {
@@ -600,7 +602,7 @@ tr th:first-child{
 .track-slot,
 .time-slot {
   font-weight: bold;
-  font-size: .75em;
+  font-size: 1.25em;
 }
 
 .track-1 {
