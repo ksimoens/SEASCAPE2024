@@ -690,3 +690,10 @@ tr th:first-child{
 hr {
   margin: 40px 0;
 }
+
+ @media screen and (max-width:700px){
+        #1{order:1;}
+        #2{order:2;}
+        #3{order:3;}
+        #4{order:4;}
+}
