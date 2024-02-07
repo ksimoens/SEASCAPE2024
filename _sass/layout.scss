@@ -538,10 +538,13 @@ tr th:first-child{
 
 .time-slot {
   grid-column: times;
+  @media screen and (max-width: 700px) {
+	display: none;
+  }
 }
 
 .track-slot {
-  display: block; /* hidden on small screens and browsers without grid support */
+  display: none; /* hidden on small screens and browsers without grid support */
 }
 
 @supports( display: grid ) {
