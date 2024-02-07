@@ -527,15 +527,17 @@ tr th:first-child{
 
 .time-slot {
   grid-column: times;
+  display: none;
 }
 
-.track-slot {
-  display: none; /* hidden on small screens and browsers without grid support */
-}
+//.track-slot {
+//  display: none; /* hidden on small screens and browsers without grid support */
+//}
 
 @supports( display: grid ) {
   @media screen and (min-width: 700px) {
-    .track-slot {
+    //.track-slot {
+	.time-slot {
       display: block;
       padding: 10px 5px 5px;
       position: sticky;
@@ -583,7 +585,7 @@ tr th:first-child{
 .session-title,
 .time-slot {
   margin: 0;
-  font-size: 1.66em;
+  //font-size: 1.66em;
 }
 
 .session-title a {
@@ -602,7 +604,7 @@ tr th:first-child{
 .track-slot,
 .time-slot {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.66em;
 }
 
 .track-1 {
