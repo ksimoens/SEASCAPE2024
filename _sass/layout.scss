@@ -540,7 +540,7 @@ tr th:first-child{
 }
 
 .track-slot {
-  display: grid; /* hidden on small screens and browsers without grid support */
+  display: block; /* hidden on small screens and browsers without grid support */
 }
 
 @supports( display: grid ) {
