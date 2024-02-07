@@ -667,6 +667,9 @@ tr th:first-child{
 
 .track-all {
   display: flex;
+  @media screen and (max-width: 700px) {
+      display: none;
+  }
   justify-content: center;
   align-items: center;
   background: #ccc;
