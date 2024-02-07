@@ -436,8 +436,8 @@ table{
 
 @media only screen and (max-width: 1034px) {
     /* horizontal scrollbar for tables if mobile screen */
-    .tablemobile {
-        /*overflow-x: auto;
+    /*.tablemobile {
+        overflow-x: auto;
         display: block;
     }
 }
@@ -485,7 +485,7 @@ tr th:first-child{
 /*************************
  * GRID SCHEDULE LAYOUT
  *************************/
-@media screen and (min-width:700px) {
+@media screen and (min-width: 700px) {
   .schedule {
     display: grid;
     grid-gap: 1em;
@@ -533,8 +533,8 @@ tr th:first-child{
   display: none; /* hidden on small screens and browsers without grid support */
 }
 
-@supports( display:grid ) {
-  @media screen and (min-width:700px) {
+@supports( display: grid ) {
+  @media screen and (min-width: 700px) {
     .track-slot {
       display: block;
       padding: 10px 5px 5px;
@@ -551,7 +551,7 @@ tr th:first-child{
   margin-bottom: 1em;
 }
 
-@supports( display:grid ) {
+@supports( display: grid ) {
   @media screen and (min-width: 700px) {
     .session {
       margin: 0;
