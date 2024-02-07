@@ -548,7 +548,7 @@ tr th:first-child{
 
 /* Small-screen & fallback styles */
 .session {
-  margin-bottom:  1em;
+  margin-bottom: 1em;
 }
 
 @supports( display:grid ) {
@@ -608,7 +608,7 @@ body {
 .track-slot,
 .time-slot {
   font-weight: bold;
-  font-size:.75em;
+  font-size: .75em;
 }
 
 .track-1 {
