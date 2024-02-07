@@ -557,11 +557,9 @@ tr th:first-child{
    .track-slot {
       display: block;
       padding: 10px 5px 5px;
-      position: sticky;
       top: 0;
       z-index: 1000;
       background-color: rgba(255,255,255,.9);
-	  margin-top: 100px;
     }
   }
 }
