@@ -346,6 +346,11 @@ blockquote:before {
   margin-bottom: 10px;
   border-color: #000000;
   border-style: solid;
+
+ h4 {
+	scroll-margin-top: 70px;
+ }
+
 }
 
 .session-even {
@@ -358,6 +363,11 @@ blockquote:before {
   margin-bottom: 10px;
   border-color: #000000;
   border-style: solid;
+ 
+ h4 {
+	scroll-margin-top: 70px;
+ }
+	
 }
 
 .timeline-component {
@@ -382,8 +392,6 @@ blockquote:before {
 
 .timeline-component h4{
 	font-size: 1.5rem;
-    scroll-margin-top: 100px;
-	overflow: visible;
   }
 .timeline-left{
   background: #E5E5D8;
