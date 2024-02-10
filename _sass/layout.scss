@@ -626,6 +626,19 @@ tr th:first-child{
   }
 }
 
+.session-track a {
+  color: #000;
+  text-decoration-style: solid;
+  
+  /*&:hover {
+    font-style: italic;
+  }*/
+  
+  &:focus {
+    outline: 2px dotted rgba(255,255,255,.8);
+  }
+}
+
 .track-slot,
 .time-slot {
   font-weight: bold;
@@ -709,7 +722,7 @@ hr {
 [id] {
   scroll-padding-top: 500px; // 1
   scroll-snap-type: y mandatory;
-  overflow: scroll;
+  //overflow: scroll;
 }
 
  @media screen and (max-width:700px){
