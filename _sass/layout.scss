@@ -707,7 +707,7 @@ hr {
 }
 
 [id] {
-  scroll-margin-top: 500px; // 1
+  scroll-padding-top: 500px; // 1
   scroll-snap-type: y mandatory;
   overflow: scroll;
 }
