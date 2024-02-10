@@ -346,11 +346,6 @@ blockquote:before {
   margin-bottom: 10px;
   border-color: #000000;
   border-style: solid;
-
- h4 {
-	scroll-margin-top: 70px;
- }
-
 }
 
 .session-even {
@@ -362,17 +357,11 @@ blockquote:before {
   margin: 10px;
   margin-bottom: 10px;
   border-color: #000000;
-  border-style: solid;
- 
- h4 {
-	scroll-margin-top: 70px;
- }
-	
+  border-style: solid;	
 }
 
 .timeline-component {
   margin: 0px 20px 20px 20px;
-  scroll-margin-top: 70px;
 }
 .timeline-content h1{
 		font-size: 2rem;
